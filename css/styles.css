@@ -30,15 +30,44 @@ html {
         border-bottom: 3px solid #ffff00;
         padding-top: 90px;
     }
+    #mapa{
+        width:90%;
+    }
+    .eventos-section {
+        background: #ff0000;
+        border-bottom: 3px solid #ffff00;
+        padding-top: 90px;
+    }
+    .promos-section {
+        background: #ff0000;
+        border-bottom: 3px solid #ffff00;
+        padding-top: 90px;
+    }
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
+    #mapa{
+        width:640px;
+        height:450px;
+    }
     #imagenNosotros{
         background: url('../img/nosotros.jpg') no-repeat;
         height:341px;
         width:600px;
     }
     .services-section {
+        background: #ff0000;
+        border-bottom: 3px solid #ffff00;
+        height: 99%;
+        padding-top: 90px;
+    }
+    .eventos-section {
+        background: #ff0000;
+        border-bottom: 3px solid #ffff00;
+        height: 99%;
+        padding-top: 90px;
+    }
+    .promos-section {
         background: #ff0000;
         border-bottom: 3px solid #ffff00;
         height: 99%;
@@ -77,21 +106,6 @@ html {
     padding-top: 90px;
     padding-left: 20px;
 }
-
-.eventos-section {
-    background: #ff0000;
-    border-bottom: 3px solid #ffff00;
-    height: 99%;
-    padding-top: 90px;
-}
-
-.promos-section {
-    background: #ff0000;
-    border-bottom: 3px solid #ffff00;
-    height: 99%;
-    padding-top: 90px;
-}
-
 /*ESTILOS*/
 html,
 body {
