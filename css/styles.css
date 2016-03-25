@@ -24,7 +24,11 @@ html {
 
 .intro-section {
     background: #ff0000;
-    height: 65%;
+    height: 55%;
+}
+
+.secciondosHome{
+    height: 45%;
 }
 
 .about-section {
