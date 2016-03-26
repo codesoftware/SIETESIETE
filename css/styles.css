@@ -26,7 +26,8 @@ html {
         display:none;
     }
     .services-section {
-        background: #ff0000;
+        background-color: #ff0000;
+        background: url('../img/fondo_red.png');
         border-bottom: 3px solid #ffff00;
         padding-top: 90px;
     }
@@ -34,44 +35,64 @@ html {
         width:90%;
     }
     .eventos-section {
-        background: #ff0000;
+        background-color: #ff0000;
+        background: url('../img/fondo_red.png');
         border-bottom: 3px solid #ffff00;
         padding-top: 90px;
     }
     .promos-section {
-        background: #ff0000;
+        background-color: #ff0000;
+        background: url('../img/fondo_red.png');
         border-bottom: 3px solid #ffff00;
         padding-top: 90px;
+    }
+    .contact-section {
+        background: #fff;
+        background: url('../img/fondo_white.png');
+        height: auto;
+        padding-top: 90px;
+        padding-right: 7px;
     }
 }
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     #mapa{
-        width:640px;
+        width:600px;
         height:450px;
     }
     #imagenNosotros{
+        background-size: 100% ;
         background: url('../img/nosotros.jpg') no-repeat;
         height:341px;
         width:600px;
     }
     .services-section {
-        background: #ff0000;
+        background-color: #ff0000;
+        background: url('../img/fondo_red.png');
         border-bottom: 3px solid #ffff00;
         height: 99%;
         padding-top: 90px;
     }
     .eventos-section {
-        background: #ff0000;
+        background-color: #ff0000;
+        background: url('../img/fondo_red.png');
         border-bottom: 3px solid #ffff00;
         height: 99%;
         padding-top: 90px;
     }
     .promos-section {
-        background: #ff0000;
+        background-color: #ff0000;
+        background: url('../img/fondo_red.png');
         border-bottom: 3px solid #ffff00;
         height: 99%;
         padding-top: 90px;
+    }
+    .contact-section {
+        background: #fff;
+        background: url('../img/fondo_white.png');
+        height: auto;
+        padding-top: 90px;
+        padding-left: 60px;
     }
 }
 .navbar {
@@ -86,6 +107,7 @@ html {
 
 .intro-section {
     background: #ff0000;
+    background: url('../img/fondo_red.png');
     height: 55%;
 }
 
@@ -94,7 +116,8 @@ html {
 }
 
 .about-section {
-    background: #ff0000;
+    background-color: #ff0000;
+    background: url('../img/fondo_red.png');
     border-bottom: 3px solid #ffff00;
     height: 99%;
     padding-top: 90px;
@@ -102,10 +125,12 @@ html {
 
 .contact-section {
     background: #fff;
+    background: url('../img/fondo_white.png');
     height: auto;
     padding-top: 90px;
-    padding-left: 20px;
+    padding-right: 7px;
 }
+
 /*ESTILOS*/
 html,
 body {
@@ -115,9 +140,14 @@ body {
 .img-hover:hover {
     opacity: 0.8;
 }
-
-img-thumbnail {
-    margin: 10px;
+.marco_contacto {
+    background: white;
+    border-color: red;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 8px;
+    width: 100%;
 }
 
 .contador {
@@ -128,7 +158,7 @@ img-thumbnail {
 }
 
 hr {
-    width: 80%;
+    width: 93%;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 28px;
@@ -261,7 +291,6 @@ header.carousel .fill {
 
 .h4, h4 {
     color: #ff0000;
-    letter-spacing: 0.5pt;
     text-align: left;
 }
 
@@ -281,7 +310,7 @@ p {
 #contactenos p {
     color: #000;
     font-family: "Arial",sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     margin-left: 28px;
     text-align: justify;
 }
@@ -294,17 +323,17 @@ p {
     text-transform: uppercase;
 }
 
-.font-bold {
-    font-weight: 700;
-}
-
-.bold{
-    font-weight: bold;
+.img-thumbnail {
+    margin: 8px;
+    background-color: #ffff00;
+    border-radius: 0px;
+    padding: 3px;
 }
 
 /* MARCAS */
-.img-thumbnail-productos {
+.img-thumbnail-productos  {
     margin: 10px;
+    background-color: #fff;
 }
 
 .title-productos {
